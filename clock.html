@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Clock</title>
+  <link rel="stylesheet" type="text/css" href="clock.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="clock.js"> </script>
+</head>
+<body>
+  <div id="clock-container" class="clock-container">
+    <div id="clock">
+      <div id="hour-container" class="center default-rotation">
+        <div id="hour" class="hand"></div>
+      </div>
+      <div id="minute-container" class="center default-rotation">
+        <div id="minute" class="hand"></div>
+      </div>
+      <div id="second-container" class="center default-rotation">
+        <div id="second" class="hand"></div>
+        <div id="second-base" class="hand"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="digital-container">
+    <div id="time">0:00</div>
+  </div>
+</body>
+</html>
